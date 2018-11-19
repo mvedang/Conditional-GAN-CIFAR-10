@@ -7,6 +7,17 @@ The dataset CIFAR-10 was downloaded using Keras library.
 
 Problem Statement : Implement Conditional GAN for CIFAR-10 dataset containing images belonging to 10 classes.
 
+Class 0 : Airplane
+Class 1 : Automobile
+Class 2 : Bird
+Class 3 : Cat
+Class 4 : Deer
+Class 5 : Dog
+Class 6 : Frog
+Class 7 : Horse
+Class 8 : Ship
+Class 9 : Truck
+
 <b><h3>Approach :</h3></b>
 
 The datasets have been combined for better training of the Conditional GAN.
