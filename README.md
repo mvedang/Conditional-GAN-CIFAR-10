@@ -9,7 +9,7 @@ Problem Statement : Implement Conditional GAN for CIFAR-10 dataset containing im
 
 <b><h3>Approach :</h3></b>
 
-<br>The datasets have been combined for better training of the Conditional GAN.
+The datasets have been combined for better training of the Conditional GAN.
 <br>Batch size has been taken as 50. Image size has been taken as 32x32.
 
 <b>Generator Architecture</b>
@@ -39,12 +39,12 @@ Problem Statement : Implement Conditional GAN for CIFAR-10 dataset containing im
 <li>Conv2D - 512 filters - kernel size 3x3 and strides size 2x2 - Batch Normalization and LeakyReLU applied</li>
 <li>Flatten - resultant of Conv2D is flattened
 </ul>
-<br>Label embedding performed to classify image of corresponding label.
+Label embedding performed to classify image of corresponding label.
 <br>Result of label embedding flattened and multiplied with resultant of network.
 <br>Dropout of 0.3 is taken
 <br>Resultant with activation sigmoid determines whether image is genuine or fake.
 
-<b>Combined Model</b>
+<br><b>Combined Model</b>
 <ul>
 <li>Discriminator is declared and compiled</li>
 <li>Generator is declared</li>
