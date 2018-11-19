@@ -26,8 +26,9 @@ The datasets have been combined for better training of the Conditional GAN.
 <li>Conv2DTranspose - 64 filters - kernel size 5x5 and strides size 2x2 - Batch Normalization and LeakyReLU applied</li>
 <li>Conv2DTranspose - 3 filters - kernel size 5x5 and strides size 2x2 - Activation layer tanh applied</li>
 </ul>
+Output is image fake generated.
 
-<b>Discriminator Architecture</b>
+<br><b>Discriminator Architecture</b>
 <br>Image passed to Discriminator taken as input.
 <br>Labels passed to Discriminator taken as input.
 <br>Image taken as input by network :
@@ -42,7 +43,7 @@ The datasets have been combined for better training of the Conditional GAN.
 Label embedding performed to classify image of corresponding label.
 <br>Result of label embedding flattened and multiplied with resultant of network.
 <br>Dropout of 0.3 is taken
-<br>Resultant with activation sigmoid determines whether image is genuine or fake.
+<br>Resultant output is dense layer with one unit, activation layer sigmoid which determines whether image is genuine or fake.
 
 <br><b>Combined Model</b>
 <ul>
