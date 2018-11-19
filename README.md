@@ -3,7 +3,7 @@
 <b>Conditional GAN implemented on the CIFAR-10 dataset</b>
 
 The dataset CIFAR-10 was downloaded using Keras library.
-The dataset is available here : https://www.cs.toronto.edu/~kriz/cifar.html
+<br>The dataset is available here : https://www.cs.toronto.edu/~kriz/cifar.html
 
 Problem Statement : Implement Conditional GAN for CIFAR-10 dataset containing images belonging to 10 classes.
 
