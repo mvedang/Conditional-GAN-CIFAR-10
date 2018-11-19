@@ -63,13 +63,13 @@ Problem Statement : Implement Conditional GAN for CIFAR-10 dataset containing im
 <b><h3>For 20 epochs, results are :</h3></b>
 <ul>
 <li><b>Discriminator Loss : 0.683838 | Generator Loss : 0.769194 |</b> after completion of epoch 4.
-![alt text](./images/3.png)
+[alt text](./images/3.png)
 <li><b>Discriminator Loss : 0.642529 | Generator Loss : 0.904776 |</b> after completion of epoch 8.
-![alt text](./images/7.png)
+[alt text](./images/7.png)
 <li><b>Discriminator Loss : 0.610600 | Generator Loss : 1.061794 |</b> after completion of epoch 12.
-![alt text](./images/11.png)
+[alt text](./images/11.png)
 <li><b>Discriminator Loss : 0.670779 | Generator Loss : 1.190142 |</b> after completion of epoch 16.
-![alt text](./images/15.png)
+[alt text](./images/15.png)
 <li><b>Discriminator Loss : 0.566399 | Generator Loss : 1.411952 |</b> after completion of epoch 20.
-![alt text](./images/19.png)
+[alt text](./images/19.png)
 </ul>
